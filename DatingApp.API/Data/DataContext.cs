@@ -10,5 +10,6 @@ namespace DatingApp.API.Data
         //Note that table name is based on property name - IE "Values" property will result in "Values" table
         public DbSet<Value> Values { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Photo> Photos { get; set; }
     }
 }
